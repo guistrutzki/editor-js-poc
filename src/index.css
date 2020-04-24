@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#editor-js {
+  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.codex-editor {
+  cursor: text;
+  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ce-block__content,
+.ce-toolbar__content {
+  width: 100%;
+  max-width: unset;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 40px !important;
+  height: 100%;
+  flex: 1 1 auto;
+}
+
